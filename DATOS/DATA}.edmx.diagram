@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a5135debd1e6487d87785cb9ffbab9a4" Name="Diagram1">
+        <EntityTypeShape EntityType="DISCOCENTROHUARCAYAModel.Detalle_Proforma" Width="1.5" PointX="6.625" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="DISCOCENTROHUARCAYAModel.Evento" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DISCOCENTROHUARCAYAModel.Evento_Items" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DISCOCENTROHUARCAYAModel.Items" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DISCOCENTROHUARCAYAModel.Proforma" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DISCOCENTROHUARCAYAModel.Usuario" Width="1.5" PointX="1.875" PointY="6.5" IsExpanded="true" />
+        <AssociationConnector Association="DISCOCENTROHUARCAYAModel.FK__Detalle_P__idPro__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="DISCOCENTROHUARCAYAModel.FK__Evento_It__idEve__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="DISCOCENTROHUARCAYAModel.FK__Proforma__idEven__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="DISCOCENTROHUARCAYAModel.FK__Evento_It__idPro__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="DISCOCENTROHUARCAYAModel.FK__Proforma__idUsua__300424B4" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
